@@ -137,7 +137,7 @@ li {
 .our_card:hover {
     background: #00897b;
     color: white;
-    box-shadow: -webkit-box-shadow: 0px 9px 12px 0px rgba(50, 50, 50, 1);
+    -webkit-box-shadow: 0px 9px 12px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow: 0px 9px 12px 0px rgba(50, 50, 50, 1);
     box-shadow: 0px 9px 12px 0px rgba(50, 50, 50, 1);
 }
@@ -170,20 +170,106 @@ li {
 .button-servises:hover {
     cursor: pointer;
 }
+
 /*портфолио*/
-.portfolio{
+.portfolio {
     text-align: center;
-padding-top: 120px;
-padding-bottom: 135px;
+    padding-top: 120px;
+    padding-bottom: 135px;
 }
-.portfolio button:hover{
+
+.portfolio button:hover {
     color: black;
     background: transparent;
     border: 2px solid #00897b;
 }
-.portfolio img{
-margin-bottom: 30px;
+
+.portfolio img {
+    margin-bottom: 30px;
 }
-.filter{
-padding: 120px 0;
+
+.filter {
+    padding: 120px 0;
+}
+
+/*цены*/
+.pricing {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #f0f1f1;
+    text-align: center;
+
+}
+
+.praice:hover {
+    -webkit-box-shadow: 0px 9px 12px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 0px 9px 12px 0px rgba(50, 50, 50, 1);
+    box-shadow: 0px 9px 12px 0px rgba(50, 50, 50, 1);
+}
+
+.praice {
+    background: #fff;
+    transition: 0.5s;
+}
+
+.praice__head {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-image: url(img/zxc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 211px;
+}
+
+.praice__head p {
+    font-size: 25px;
+}
+
+.praice__head {
+    font-size: 50px;
+}
+
+.praice__head sub {
+    font-size: 17px;
+}
+
+.praice__head sup {
+    font-size: 25px;
+}
+
+.praice__body {
+    font-size: 17px;
+    color: #212121;
+    border: 1px solid #bfbfbf;
+}
+
+.praice__body ul li {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    max-width: 175px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.praice__fooer {
+    padding: 60px 0;
+}
+
+.praice__fooer button {
+    cursor: pointer;
+    color: #212121;
+    background: transparent;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 2px solid #212121;
+    transition: 0.3s;
+}
+
+.praice__fooer button:hover {
+    text-transform: uppercase;
+    color: white;
+    background: #00897b;
+    border: none;
 }
