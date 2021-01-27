@@ -299,9 +299,11 @@ li {
     display: flex;
     justify-content: center;
 }
+
 .icons a i {
     transition: 0.3s;
 }
+
 .icons i:nth-child(1) {
     color: #f0f1f1;
 }
@@ -309,6 +311,7 @@ li {
 .icons i:nth-child(2) {
     color: #00897b;
 }
+
 .icons a:hover i:nth-child(1) {
     color: #3949ab;
 }
@@ -316,49 +319,62 @@ li {
 .icons a:hover i:nth-child(2) {
     color: #fff;
 }
+
 /*9*/
-.left>div:first-child{
+.left>div:first-child {
     order: 1;
 }
-.left>div:last-child{
+
+.left>div:last-child {
     order: 2;
 }
-.right>div:first-child{
+
+.right>div:first-child {
     order: 2;
 }
-.right>div:last-child{
+
+.right>div:last-child {
     order: 1;
 }
-.blog{
+
+.blog {
     text-align: left;
     margin-top: 60px;
     margin-left: 20px;
 
 }
+
 .blog a {
-font-size: 25px;
-color:#00897b;
-font-family: 'Open Sans Semibold';
+    font-size: 25px;
+    color: #00897b;
+    font-family: 'Open Sans Semibold';
 }
+
 .blog div {
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
 .blog span {
     font-size: 17px;
     font-family: 'Open Sans Semibold';
     margin-right: 35px;
 }
+
 .blog i {
     margin-right: 15px;
 }
-.blog p{
+
+.blog p {
     font-size: 15px;
 }
-.left, .right{
+
+.left,
+.right {
     margin: 0 -40px;
 }
-.button_blog{
+
+.button_blog {
     width: 220px;
     height: 70px;
     text-transform: uppercase;
@@ -367,5 +383,81 @@ font-family: 'Open Sans Semibold';
     margin-top: 125px;
     border: none;
     background: #00897b;
-    
+
+}
+
+.footer {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: #fff;
+    background-image: url(img/futer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer .about__text {
+    color: #fff;
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+    font-size: 62px;
+    color: #fff;
+}
+
+.circle {
+    background-color: #3949ab;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 35px;
+}
+
+.circle p {
+    font-size: 25px;
+}
+
+.footer input,
+.footer textarea {
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer input:focus,
+.footer textarea:focus {
+    outline: none;
+}
+
+.footer textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+.footer button {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #212121;
+    padding: 20px 80px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.footer button:hover {
+    opacity: 0.6;
+}
+.rutes{
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.form {
+    margin-top: 70px;
 }
